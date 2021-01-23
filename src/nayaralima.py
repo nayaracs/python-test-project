@@ -11,7 +11,7 @@ dias.extend((data1,data2,data3))
 if status == "Regular:" :
     for element in dias:
         if ( "sat" in element or "sun" in element):
-            Lakewood.append(90  )
+            Lakewood.append(90)
             Bridgewood.append(60)
             Ridgewood.append(150)
         else:
